@@ -1,5 +1,5 @@
 {
-    "arra":[
+    "array":[
 {"slno":"1", "name":"carrot", "qty":"1", "unit":"kg", "dept":"vegetables"},
 {"slno":"2", "name":"beetroot", "qty":"2", "unit":"kg", "dept":"vegetables"},
 {"slno":"3", "name":"onion", "qty":"2", "unit":"kg", "dept":"vegetables"},
