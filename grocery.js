@@ -7,11 +7,11 @@ req.onreadystatechange = function(){
         data=content.list;
         for(i=0;i<data.length;i++){
             txt+="<tr>"
-            txt+="<th>"+data[i].slno+"</th>"
-            txt+="<th>"+data[i].name+"</th>"
-            txt+="<th>"+data[i].qty+"</th>"
-            txt+="<th>"+data[i].unit+"</th>"
-            txt+="<th>"+data[i].dept+"</th>"
+            txt+="<td>"+data[i].slno+"</td>"
+            txt+="<td>"+data[i].name+"</td>"
+            txt+="<td>"+data[i].qty+"</td>"
+            txt+="<td>"+data[i].unit+"</td>"
+            txt+="<td>"+data[i].dept+"</td>"
             txt+="</tr>"
         }
         document.getElementById("myTable").innerHTML=data.slno;
