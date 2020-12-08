@@ -1,5 +1,5 @@
 function load(){
-var req,data,content,x,txt="";
+var req,data,content,txt="";
 req = new XMLHttpRequest();
 req.onreadystatechange = function(){
     if(this.readyState==4&&this.status==200){
